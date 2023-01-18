@@ -1,0 +1,30 @@
+.item {
+  display: grid;
+  grid-template-columns: repeat(7, 150px);
+  width: 100%;
+  margin: 10px auto;
+  justify-content: space-between;
+}
+
+.total {
+  margin-left: -20px;
+}
+
+.quantity {
+  margin-left: -10px;
+}
+
+.btns {
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.increment,
+.decrement {
+  padding: 0 20px;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}

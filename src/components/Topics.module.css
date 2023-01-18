@@ -1,0 +1,7 @@
+.topics {
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  width: 60%;
+  margin: 40px auto;
+  justify-content: space-evenly;
+}
